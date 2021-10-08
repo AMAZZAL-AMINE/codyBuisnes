@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use App\Models\Order;
 use App\Models\Images;
 use App\Models\Product;
@@ -17,7 +18,13 @@ class AdminController extends Controller
     }
     /* admin dahsboared */
     public function dashboard() {
-        return view('admin.dashboard');
+        $products = Product::all();
+        $orders = Order::all();
+        $users = User::all();
+        $categories = Category::all();
+
+
+        return view('admin.dashboard', compact('products','orders','users','categories'));
     }
 
     /* admin c reate product view  */
