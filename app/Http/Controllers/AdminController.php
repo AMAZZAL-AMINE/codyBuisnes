@@ -340,7 +340,44 @@ class AdminController extends Controller
            return view("admin.orders", compact('orders'));
        }
 
-}
+
+       /* 
+       / --> Update The Order
+       / --> Deleteing order
+       */
+
+       //Updating orders
+       public function OrderUpdate($id, Request $request) {
+            
+        //update order deeverd
+        $order = Order::findOrFail($id);
+
+        $order->update(
+            array(
+                "delivered" => 1,
+            )
+        );
+        
+        return back()->with(
+            array(
+                "message" => "Order Has Been deliverd Successfully"
+            )
+        );
+       } 
+       public function OrderDelete($id) {
+
+        $order = Order::findOrFail($id);
+        $order->delete();
+        return back()->with(
+            array(
+                "message" => "Order Has Been Deleted"
+            )
+        );
+       }
+           
+    }
+
+
 
 // Liens for get product if uses's paued successfuly
 //create list pdf for devi if user's payes sucssesfuly

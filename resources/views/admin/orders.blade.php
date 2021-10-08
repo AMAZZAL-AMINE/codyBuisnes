@@ -36,7 +36,8 @@
                       <th>Total</th>
                       <th>pay</th>
                       <th>Livree</th>
-                      <th>Delete</th>
+                      <th>Delevered</th>
+                      <th>Remove</th>
                     </tr>
                   </thead>
                   <tfoot>
@@ -49,7 +50,8 @@
                       <th>Total</th>
                       <th>pay</th>
                       <th>Livree</th>
-                      <th>Delete</th>
+                      <th>Delevered</th>
+                      <th>Remove</th>
                     </tr>
                   </tfoot>
                   <tbody>
@@ -75,7 +77,30 @@
                                 <i class="fa fa-times text-danger" aria-hidden="true"></i>
                             @endif
                         </td>
-                        <td></td>
+                        <td>
+                            @if (!$order->delivered)
+                            <form action="{{ route('order.update',$order->id) }}" method="post">
+                                @csrf
+                                @method('PUT')
+                                <button type="submit" class="btn btn-sm btn-success">
+                                   Accept Delever <i class="fa fa-check" aria-hidden="true"></i>
+                                </button>
+                                </form>
+                                @else
+                                <b>Deleverd Done</b>
+                            
+                            @endif
+                        </td>
+                        <td>
+
+                            <form id="{{ $order->id }}" action="{{ route('order.delete',$order->id) }}" method="post">
+                                @csrf
+                                @method('DELETE')
+                                <button  class="btn btn-sm btn-danger">
+                                 Delete <i class="fa fa-times" aria-hidden="true"></i>
+                                </button>
+                            </form>
+                          </td>
                         </tr>
                         @endforeach
                   </tbody>
