@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Order;
 use App\Models\Images;
 use App\Models\Product;
 use App\Models\Category;
@@ -326,6 +327,18 @@ class AdminController extends Controller
             )
         );
       }
+
+
+      /**
+       * show admin orders 
+       * show admin payments
+       */
+
+       //show all orders
+       public function showOrders() {
+           $orders = Order::all();
+           return view("admin.orders", compact('orders'));
+       }
 
 }
 

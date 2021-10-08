@@ -48,6 +48,7 @@ Route::delete('/Admin/Product-deleting/{id}', [AdminController::class, 'deletePr
 Route::get('/Admin/Category-Update/{id}', [AdminController::class , 'showCtagoryUpdate'])->name('category.showform');
 Route::put('/Admin/Update-Category/{id}', [AdminController::class, 'storeUpdateCategory'])->name('category.update');
 Route::delete('/Admin/Category-Delete/{id}', [AdminController::class, 'deleteCategory'])->name('category.delete');
+Route::get('/Admin/Orders', [AdminController::class, 'showOrders'])->name('admin.orders');
 /* end admin rout -----------------------------------  */
 
 
