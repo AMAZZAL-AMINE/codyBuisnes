@@ -100,7 +100,7 @@ class PaypalePaymentController extends Controller
     
             }
 
-            return redirect()->route('cart.index')->with([
+            return redirect()->route('product.get')->with([
                 'success' => 'Payment  accepted seccessfully'
             ]);
 

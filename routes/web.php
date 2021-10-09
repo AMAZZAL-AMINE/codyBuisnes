@@ -65,6 +65,10 @@ Route::get('/Product-Deatils/{id}',[ProductController::class, 'ProductDetails'])
 /* get products by categories */
 Route::get('/Products/{id}/Categories', [ProductController::class, 'getProductByCategory'])->name('get.category');
 
+/**
+ * get lient for project if user payed successfuly
+ */
+Route::get('/Get-Project-For-User', [ProductController::class, 'getProjectByLient'])->name('product.get');
 
 
 /* product cart add iteme and remove item */
