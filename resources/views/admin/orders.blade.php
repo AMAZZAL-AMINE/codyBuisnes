@@ -36,6 +36,7 @@
                       <th>Total</th>
                       <th>pay</th>
                       <th>Livree</th>
+                      <th>Ordered At</th>
                       <th>Delevered</th>
                       <th>Remove</th>
                     </tr>
@@ -50,6 +51,7 @@
                       <th>Total</th>
                       <th>pay</th>
                       <th>Livree</th>
+                      <th>Ordered At</th>
                       <th>Delevered</th>
                       <th>Remove</th>
                     </tr>
@@ -70,6 +72,7 @@
                                 <i class="fa fa-times text-danger" aria-hidden="true"></i>
                             @endif
                         </td>
+                        
                         <td>
                             @if ($order->delivered)
                                 <i class="fa fa-check text-success" aria-hidden="true"></i>
@@ -77,6 +80,8 @@
                                 <i class="fa fa-times text-danger" aria-hidden="true"></i>
                             @endif
                         </td>
+                        
+                        <td> {{ $order->created_at->diffforhumans() }} </td>
                         <td>
                             @if (!$order->delivered)
                             <form action="{{ route('order.update',$order->id) }}" method="post">
@@ -101,7 +106,7 @@
                                 </button>
                             </form>
                           </td>
-                        </tr>
+                    
                         @endforeach
                   </tbody>
                 </table>

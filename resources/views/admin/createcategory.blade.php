@@ -29,7 +29,7 @@
                   <label for="">Category Slug</label>
                   <input type="text" name="slug" id="slug" class="form-control" placeholder="Slug" >
                 </div>
-
+                
                 <button class="btn btn-primary " type="submit">Create Categry</button>
 
             </form>

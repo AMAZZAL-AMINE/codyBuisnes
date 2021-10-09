@@ -94,7 +94,7 @@ class AdminController extends Controller
                 )
             );
 
-           
+         
 
             return back()->with(array(
                 'message' => 'Product Has Been Created'
