@@ -11,7 +11,8 @@ class Order extends Model
 
     protected $fillable = [
         "user_id","product_name","qty",
-        "price","total","paid","delivered",
+        "price","total","paid","delivered","drive_url",
+        
     ];
 
     public function users() {
@@ -19,5 +20,7 @@ class Order extends Model
         return $this->belongsTo(User::class, 'user_id');
 
     }
+
+ 
     
 }

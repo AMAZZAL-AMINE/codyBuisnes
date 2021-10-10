@@ -21,7 +21,7 @@
             <form action="{{ route('store.category') }}" method="post">
                 @csrf
                 <div class="form-group">
-                  <label for="">Category Name</label>
+                   <label for="">Category Name</label>
                   <input type="text" name="name" id="name" class="form-control" placeholder="Name" >
                 </div>
 

@@ -29,7 +29,8 @@ class AdminController extends Controller
 
     /* admin c reate product view  */
     public function showCreateProduct() {
-        return view('admin.createproduct');
+        $categories = Category::all();
+        return view('admin.createproduct', compact('categories'));
     }
 
     public function createProduct (Request $request) {
@@ -41,7 +42,8 @@ class AdminController extends Controller
             'price' => 'required',
             'category' => 'required',
             'd_image' => ['required', 'image'],
-            'images' => ['max:20']
+            'images' => ['max:20'],
+            'drive_url' => ['required']
         ]);
         
              $imagePath1 = request('d_image')->store('products_image', 'public');
@@ -83,6 +85,7 @@ class AdminController extends Controller
                     'admin_layout' => $request->admin_layout,
                     'number_page' => $request->number_pages,
                     'category_id' => $data['category'],
+                    'drive_url' => $data['drive_url'],
                     'image' => $imagePath1,
                     'img_1' =>  $imagePath2 ?? null,
                     'img_2' =>  $imagePath3 ?? null,

@@ -26,6 +26,7 @@ class CreateProductsTable extends Migration
             $table->string('admin_layout')->nullable();
             $table->integer('number_page')->nullable();
             $table->bigInteger('category_id')->unsigned();
+            $table->text('drive_url');
             $table->string('img_1')->nullable();
             $table->string('img_2')->nullable();
             $table->string('img_3')->nullable();

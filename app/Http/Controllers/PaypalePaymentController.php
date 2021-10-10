@@ -27,13 +27,9 @@ class PaypalePaymentController extends Controller
         foreach(\Cart::getContent() as $item) {
 
                 array_push($data['items'], [
-
                     'name' => $item->name,
-
                     'price' => (int) ($item->price / 9),
-
                     'desc' => $item->associatedModel->description,
-
                     'qty' => $item->quantity,
                 ]);
 
@@ -92,6 +88,7 @@ class PaypalePaymentController extends Controller
                     'qty' => $item->quantity,
                     'price' => $item->price,
                     'total' => $item->price * $item->quantity,
+                    'drive_url' => $item->associatedModel->drive_url,
                     'paid' => 1,
 
                 ]);

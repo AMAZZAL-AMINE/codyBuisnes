@@ -45,8 +45,18 @@ class ProductController extends Controller
      */
     public function getProjectByLient() {
         $orders = Order::where('user_id', auth()->user()->id)->orderBy('id', 'desc')->get();
+   
         return view('products.getliens', compact('orders'));
     }
+
+    /**
+     * show invopice for user product
+     */
+
+     public function showInvoice($id) {
+         $order = Order::findOrFail($id);
+         return view('products.invoice', compact('order'));
+     }
 
     
 }

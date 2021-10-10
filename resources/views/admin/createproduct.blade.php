@@ -123,12 +123,10 @@
             <label for="category">Categories</label>
             <select value="{{ old('category') }}" id="category" class="form-control" name="category">
                 <option value="">Categories</option>
-                <option value="1">Ios Application</option>
-                <option value="2">Android Application</option>
-                <option value="3">Web Application</option>
-                <option value="4">Personel Website</option>
-                <option value="5">Mockup Design</option>
-                <option value="6">Graphic Design</option>
+                @foreach ($categories as $category)
+                   <option value="{{ $category->id }}"> {{ $category->name }} </option>
+                @endforeach
+                
             </select>
             @error('category')
                 <div class="alert alert-danger alert-dismissible fade show" role="alert">
@@ -217,6 +215,24 @@
             </select>
 
         </div>
+
+        <div class="form-group">
+            <label for="my-input">Project Url From Google Drive</label>
+            <input id="drive_url" value="{{ old('drive_url') }}" class="form-control" type="text" name="drive_url" placeholder="url Google Drive">
+            @error('drive_url')
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                  <strong>{{ $message }}</strong> 
+                </div>
+                
+                <script>
+                  $(".alert").alert();
+                </script>
+            @enderror
+        </div>  
+
         <button class="btn btn-primary my-3" type="submit">Create Product</button>
     </form>
 </div>

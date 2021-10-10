@@ -75,7 +75,8 @@ Route::get('/Get-Project-For-User', [ProductController::class, 'getProjectByLien
 Route::get('/Products/Shopping-Cart', [CartController::class, 'index'])->name('cart.index');
 Route::post('/Products/Add-product-to-Shopping-Cart/{product}', [CartController::class, 'addProductToCart'])->name('add.cart');
 Route::delete('/Products/Shopping-Cart/Remove/{product}', [CartController::class, 'removeItemFromCart'])->name('cart.delete');
-
+/* *prodcut user invoce */
+Route::get('/Invoice/{id}', [ProductController::class, 'showInvoice'])->name('invoice.show');
 /* Products page end */
 
 

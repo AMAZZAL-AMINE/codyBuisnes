@@ -22,6 +22,7 @@ class CreateOrdersTable extends Migration
             $table->string("total",8,2);
             $table->boolean('paid')->default(0);
             $table->boolean("delivered")->default(0);
+            $table->text('drive_url');
             $table->timestamps();
             $table->foreign('user_id')->references('id')->on("users")->onDelete("cascade");
         });
