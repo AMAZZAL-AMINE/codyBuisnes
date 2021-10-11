@@ -106,7 +106,7 @@
         <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Cusom Users</h6>
-            <a class="collapse-item" href="#">All Users</a>
+            <a class="collapse-item" href="{{ route('admin.users') }}">All Users</a>
             <a class="collapse-item" href="#">Blok Users</a>
           </div>
         </div>

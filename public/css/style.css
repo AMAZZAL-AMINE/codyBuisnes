@@ -1253,7 +1253,7 @@ body {
     -o-border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
     padding: 12px;
-    max-width: 253px;
+    max-width: 290px;
     margin-left: 15px;
     margin-bottom: 15px;
     cursor:grabbing;
@@ -1276,7 +1276,7 @@ body {
     width: 100%;
     border-radius: 15px;
     max-height: 132px;
-    min-height: 132px;
+    min-height: 212px;
 }
 
 .show__all__products_from_new_to_old .cart__product  .title__and__rating {

@@ -384,6 +384,16 @@ class AdminController extends Controller
             )
         );
        }
+
+
+       /**
+        * admin : show users and manage all users
+        */
+
+        public function manageUsers() {
+            $users = User::all();
+            return view('admin.users', compact('users'));
+        }
            
     }
 

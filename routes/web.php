@@ -53,7 +53,8 @@ Route::get('/Admin/Orders', [AdminController::class, 'showOrders'])->name('admin
 Route::put('/Admin/Order-Update/{id}', [AdminController::class, 'OrderUpdate'])->name('order.update');
 //delete orderr
 Route::delete('/Admin/Order-Delete/{id}', [AdminController::class, 'OrderDelete'])->name('order.delete');
-
+/* manager user */
+Route::get('/Admin/Users', [AdminController::class, 'manageUsers'])->name('admin.users');
 /* end admin rout -----------------------------------  */
 
 
