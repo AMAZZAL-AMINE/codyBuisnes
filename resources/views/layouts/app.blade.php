@@ -138,25 +138,27 @@
                                       @endif
                                   @else
                                   <div>
-                              |
-                            </div>
-                                              <div class="user_name_profle">
-                                                    <a title="User Profile" href=""><i class="fa fa-user-circle" aria-hidden="true"></i> </a>
-                                              </div>
+                               |
+                              </div>
+                                        <div class="user_name_profle">
+                                              <a title="User Profile" href="{{ route('user.profile',auth()->user()->id) }}"> <img src="{{ asset('/storage/'.auth()->user()->image) }}" alt=""> </a>
+                                        </div>
                                   @endguest
                         </div>
                     </div>
-                 <div cass="nav_search">
-                        <form>
+                   <div cass="nav_search">
+                        <form action="{{ route('product.search') }}" method="get">
+                          @csrf
                             <div class="search_icon">
                                 <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
                             </div>
                             <div class="search">
-                                <input type="text" name="search" placeholder="Search">
+                                <input type="text" name="search" placeholder="Search" value="{{ $search ?? '' }}">
                             </div>
                         </form>
                     </div>
 
+                    
 
 
         </div>

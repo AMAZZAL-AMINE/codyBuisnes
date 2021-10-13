@@ -5,8 +5,10 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\PaypalePaymentController;
+use App\Http\Controllers\ProfileController;
 
 /*
 |--------------------------------------------------------------------------
@@ -69,7 +71,6 @@ Route::get('/Products/{id}/Categories', [ProductController::class, 'getProductBy
 /**
  * get lient for project if user payed successfuly
  */
-Route::get('/Get-Project-For-User', [ProductController::class, 'getProjectByLient'])->name('product.get');
 
 
 /* product cart add iteme and remove item */
@@ -78,6 +79,9 @@ Route::post('/Products/Add-product-to-Shopping-Cart/{product}', [CartController:
 Route::delete('/Products/Shopping-Cart/Remove/{product}', [CartController::class, 'removeItemFromCart'])->name('cart.delete');
 /* *prodcut user invoce */
 Route::get('/Invoice/{id}', [ProductController::class, 'showInvoice'])->name('invoice.show');
+/* search in laravel */
+Route::get('/Product/Search', [ProductController::class, 'search'])->name('product.search');
+
 /* Products page end */
 
 
@@ -88,3 +92,16 @@ Route::get('/cancel-payment', [PaypalePaymentController::class, 'paymentCancel']
 Route::get('/success-payment', [PaypalePaymentController::class, 'paymentSuccess'])->name('success.payment');
 
 /* end payment pay by paypal routes */
+
+
+/* start route for user auth prifile  */
+//show profile
+Route::get('/User/{user}/Profile/', [ProfileController::class, 'showProfile'])->name('user.profile');
+//show update form 
+Route::get('/Profile/{id}/Update-Info', [ProfileController::class, 'showUpdateForm'])->name('profile.update');
+//store data in database proile user
+Route::put('/User/{id}/Profile-Update', [ProfileController::class, 'UpdateInfo'])->name('storeinfo.user');
+/* end route for user priofile */
+
+/* routing about us page */
+Route::get('/About-us', [HomeController::class, 'aboutUs'])->name('about');

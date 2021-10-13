@@ -97,7 +97,7 @@ class PaypalePaymentController extends Controller
     
             }
 
-            return redirect()->route('product.get')->with([
+            return redirect()->route('user.profile',auth()->user()->id)->with([
                 'success' => 'Payment  accepted seccessfully'
             ]);
 

@@ -43,11 +43,7 @@ class ProductController extends Controller
     /**
      * functio for show user who payed project
      */
-    public function getProjectByLient() {
-        $orders = Order::where('user_id', auth()->user()->id)->orderBy('id', 'desc')->get();
-   
-        return view('products.getliens', compact('orders'));
-    }
+
 
     /**
      * show invopice for user product
@@ -57,6 +53,25 @@ class ProductController extends Controller
          $order = Order::findOrFail($id);
          return view('products.invoice', compact('order'));
      }
+
+     /**
+      * create search working in website
+      * create view for search
+      * create search backend
+      */
+
+      public function search(Request $request) {
+
+        //get search value from the input request
+        $search = $request->input('search');
+
+        $products = Product::query()
+            ->where('title', 'LIKE', "%{$search}%")
+            ->orWhere('slug', 'LIKE', "%{$search}%")
+            ->get();
+
+        return view('products.search', compact('products', 'search'));
+      }
 
     
 }
