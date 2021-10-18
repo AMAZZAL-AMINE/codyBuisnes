@@ -67,8 +67,8 @@
                                   @endif
                                     <li><a href="/"><div>Home</div> <div><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></div></a></li>
                                     <li><a href="{{ route('products.show') }}"><div>All Products </div> <div><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></div></a></li>
-                                    <li><a href=""> <div>About Us</div> <div><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></div> </a></li>
-                                    <li><a href=""><div>Contact Us </div> <div><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></div></a></li>
+                                    <li><a href="{{ route('about') }}"> <div>About Us</div> <div><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></div> </a></li>
+                                    <li><a href="{{ route('contact') }}"><div>Contact Us </div> <div><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></div></a></li>
                                    
                                 </ol> 
                         </ul>

@@ -105,3 +105,5 @@ Route::put('/User/{id}/Profile-Update', [ProfileController::class, 'UpdateInfo']
 
 /* routing about us page */
 Route::get('/About-us', [HomeController::class, 'aboutUs'])->name('about');
+/* routing contact page */
+Route::get('/Contact-us', [HomeController::class, 'contactUs'])->name('contact');
