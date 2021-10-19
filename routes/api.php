@@ -14,6 +14,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+// Route::get('/test-api', function() {
+//     $message = ['message' => "go away there's nothing here"];
+//     return $message['message'];
+// });
+
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });

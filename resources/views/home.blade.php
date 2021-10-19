@@ -41,7 +41,7 @@
                 </p>
             </div>
             <div>
-                <a href=""><button class="button-30" role="button">Contact Us</button></a>
+                <a href="{{ route('contact') }}"><button class="button-30" role="button">Contact Us</button></a>
             </div>
         </div>
     </div>
@@ -62,7 +62,7 @@
                 </p>
             </div>
             <div>
-                <a href=""><button class="button-29" role="button-29">About Us</button></a>
+                <a href="{{ route('about') }}"><button class="button-29" role="button-29">About Us</button></a>
             </div>
         </div>
 
