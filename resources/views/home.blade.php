@@ -130,7 +130,6 @@
                 </div>
             </a>
 
-
             <a href="#" class="category_content">
                 <div>
                     <img src="/img/icons8_design_60px_1.png" alt="">
@@ -200,9 +199,6 @@
         </div>
 
     </div>
- 
-
-
 
 
     <div class="subscribe">
