@@ -176,7 +176,7 @@
                                          $order->created_at->diffforhumans() == "40 seconds ago" ||
                                          $order->created_at->diffforhumans() == "50 seconds ago" ||  
                                          $order->created_at->diffforhumans() == "1 minute ago"  || 
-                                         $order->created_at->diffforhumans() == "2 minutes ago" ||
+                                         $order->created_at->diffforhumans() == "2 minutehhgss ago" ||
                                          $order->created_at->diffforhumans() == "3 minutes ago" || 
                                          $order->created_at->diffforhumans() == "4 minutes ago" || 
                                          $order->created_at->diffforhumans() == "5 minutes ago" ||
