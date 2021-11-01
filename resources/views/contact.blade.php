@@ -19,9 +19,11 @@
 
 				<form class="contact100-form validate-form" action="https://formspree.io/f/xgerbaqe" method="POST">
 					<span class="contact100-form-title">
-                            <b>
-                                Get Start Your Business Right Now
-                                With One Click.
+						<div>
+							<b>Get in touch with us</b>
+						</div>
+                            <b class=" font-weight-light" style="font-size: 15px;">
+								interested in our solutions or IT services? Then please get in touch and we'll be glad to help.
                             </b>
 					</span>
 
@@ -53,8 +55,25 @@
 					</div>
 				</form>
 			</div>
-		</div>
+			<div class="our-ream_and_cintactus"> 
+				<div class="title_header_contcact">
+						<h2>  Our Terms And Conditions </h2>
+					</div>
+					<div class="desc--and-text_contact">
+						<p>
+							On Coody you will receive original products from developers but at a much-reduced price tag.
+							All files do not contain ads, viruses, or malicious code. We provide good technical consultations and
+							assistance in installing products. We have regular updates and direct download links.
+							Contact Us: Coody@support.com
+						</p>
+					</div>
+			
+				</div>
+			</div>
+
 	</div>
+	 
+
 
 	<script >
 		$('.js-tilt').tilt({

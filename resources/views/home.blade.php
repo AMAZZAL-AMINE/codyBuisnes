@@ -4,11 +4,12 @@
     <div class="seacttion-top">
         <div class="text_">
             <div>
-                <h1>Be Creative, Be Jobman .</h1>
+                <h1>Make Business & Make Mony </h1>
             </div>
             <div>
-                <p>Its Time , Dont Be Like Others, being o,lmine in social media ext..., 
-                    Today you xel be someone else some one best.
+                <p>
+                    Give life to your dreams, launch your own mobile,
+                    web-based projects with Coody!
                 </p>
             </div>
             <div>
@@ -29,15 +30,12 @@
         </div>
         <div class="text__">
             <div>
-                <h2>Why Trust CodyBusnins ?</h2>
+                <h2>Everything you need to get creative projects done</h2>
             </div>
             <div>
                 <p>
-                        We Know there's anothers company in this world,
-                        we know there another website do like us,
-                        but we are #1 in our services , we do  a best services for you,
-                        we help people to get best experience , we stay with you from 0 to be pro in your work,
-                        dont waite and dont thing so mush about us, just search for your product, or contact us for new work.
+                Bring your ideas to life with professional digital assets, resources and services
+                Find the right product for you
                 </p>
             </div>
             <div>
@@ -56,9 +54,8 @@
             </div>
             <div>
                 <p>
-                    Hello, If you read this you mybe say who is behide this  and what they to
-                    ok sir, we are a company and we names i... 
-                 
+                    Coody is a world-leading online community for creative assets, tools and talent Many people
+                    around the world visit Coody to buy and sell creative assets,
                 </p>
             </div>
             <div>
@@ -206,10 +203,9 @@
             <b>Be First To Know .</b>
         </div>
         <div>
-            <p>Oh! thats right you will be first to know all thing about ass and nes 
-                product and new category 
-                , and you will know what is new in our services 
-                just put your emil.
+            <p>
+                Get any creative project done with Coody
+                Bring your ideas to life, no matter your skill level²
             </p>
         </div>
         <div>

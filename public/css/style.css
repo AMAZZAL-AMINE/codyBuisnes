@@ -2289,3 +2289,33 @@ body {
     
 }
 
+
+
+
+ .our-ream_and_cintactus {
+     text-align: center;
+     padding: 21px;
+     background-color: rgb(255, 255, 255);
+     border-radius: 9px;
+     -webkit-border-radius: 9px;
+     -moz-border-radius: 9px;
+     -ms-border-radius: 9px;
+     -o-border-radius: 9px;
+     width: 825px;
+     margin: auto;
+     margin-top: -95px;
+     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ 
+}
+
+
+.our-ream_and_cintactus .title_header_contcact {
+    color: blue;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.our-ream_and_cintactus .desc--and-text_contact p{
+    font-weight: light;
+    font-family: 'Lato', sans-serif;
+}

@@ -40,7 +40,7 @@
         @method('PUT')
         <div class="form-group">
             <label for="my-input">Title</label>
-            <input id="title" value="{{ $product->title }}" class="form-control" type="text" name="title" placeholder="Title">
+            <input id="title" value="{{ $product->title ?? '' }}" class="form-control" type="text" name="title" placeholder="Title">
             @error('title')
                 <div class="alert alert-danger alert-dismissible fade show" role="alert">
                   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -56,7 +56,7 @@
         </div>     
         <div class="form-group">
             <label for="my-input">Slug</label>
-            <input id="slug" value="{{ $product->slug }}" class="form-control" type="text" name="slug" placeholder="Slug">
+            <input id="slug" value="{{ $product->slug ?? '' }}" class="form-control" type="text" name="slug" placeholder="Slug">
             @error('slug')
                 <div class="alert alert-danger alert-dismissible fade show" role="alert">
                   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -72,7 +72,7 @@
         </div>      
         <div class="form-group">
             <label for="my-textarea">Description</label>
-            <textarea  id="desc" class="form-control" name="desc" rows="3" placeholder="Description">{{ $product->desc }}</textarea>
+            <textarea  id="desc" class="form-control" name="desc" rows="3" placeholder="Description">{{ $product->desc ?? '' }}</textarea>
             @error('desc')
                 <div class="alert alert-danger alert-dismissible fade show" role="alert">
                   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -90,7 +90,7 @@
         <div class="form-group d-flex">
                 <div class="mr-3">
                     <label for="my-input">Price</label>
-                  <input value="{{ $product->price}}"  id="price" class="form-control" type="number" name="price" placeholder="Price">
+                  <input value="{{ $product->price ?? '' }}"  id="price" class="form-control" type="number" name="price" placeholder="Price">
                   @error('price')
                     <div class="alert alert-danger alert-dismissible fade show" role="alert">
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -117,20 +117,16 @@
 
         <div class="form-group">
             <label for="my-input">Version</label>
-            <input id="version" class="form-control" type="number" name="version" placeholder="Version" value="{{ $product->version }}">
+            <input id="version" class="form-control" type="number" name="version" placeholder="Version" value="{{ $product->version ?? ''}}">
         </div>   
         
         <div class="form-group">
             <label for="category">Categories</label>
-            <select value="{{ old('category') }}" id="category" class="form-control" name="category">
-                <option value="{{ $product->category_id }}">{{ $product->categories->name }}</option>
-                <option value="1">Ios Application</option>
-                <option value="2">Android Application</option>
-                <option value="3">Web Application</option>
-                <option value="4">Personel Website</option>
-                <option value="5">Mockup Design</option>
-                <option value="6">Graphic Design</option>
-            </select>
+            <select value="{{ old('category')  }}" id="category" class="form-control" name="category">
+                <option value="{{ $product->category_id }}">{{ $product->categories->name ?? '' }}</option>
+                @foreach ($categories as $category)
+                   <option value="{{ $category->id }}"> {{ $category->name }} </option>
+                @endforeach
             @error('category')
                 <div class="alert alert-danger alert-dismissible fade show" role="alert">
                   <button type="button" class="close" data-dismiss="alert" aria-label="Close">

@@ -186,8 +186,8 @@ class AdminController extends Controller
      public function updateProdcut($id) {
 
         $product = Product::findOrFail($id);
-
-        return view('admin.updateproduct', compact('product'));
+        $categories = Category::all();
+        return view('admin.updateproduct', compact('product','categories'));
 
      }
 
