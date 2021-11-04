@@ -160,8 +160,8 @@
                         <tr>
                             <td> {{ $order->product_name }}</td>
                             <td> {{  $order->created_at->diffforhumans() }} </td>
-                            <td><a href="{{ $order->drive_url }}" class="btn btn-ms btn-success"><i class="fa fa-download" aria-hidden="true"></i> Download Project From Google Drive </a></td>
-                            <td><a href="{{ route('invoice.show',$order->id) }}" class="btn btn-ms btn-primary"><i class="fa fa-download" aria-hidden="true"></i> Download Your Invoice </a></td>
+                            <td><a href="{{ $order->drive_url }}" class="btn btn-ms btn-success"><i class="fa fa-download" aria-hidden="true"></i> Download Project </a></td>
+                            <td><a href="{{ route('invoice.show',$order->id) }}" class="btn btn-ms btn-primary"><i class="fa fa-download" aria-hidden="true"></i>   Invoice </a></td>
                             <td> 
                                 @if ($order->created_at->diffforhumans() == "1 second ago" ||
                                          $order->created_at->diffforhumans() == "2 seconds ago" || 
