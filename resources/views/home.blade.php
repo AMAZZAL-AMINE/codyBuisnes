@@ -138,47 +138,47 @@
     <div class="_new_product_week">
     <div class="title_new_produc"> <b>New Products this week </b> </div>
         <div class="cart_product_new">
-            <a href="#" class="product__cart ">
+            <a href="/Products/7/Categories" class="product__cart ">
                 <div class="new_producyt_img colorfirst">
                     <img src="/img/app.png" >
                 </div>
                 <div class="new_product_title">
                     <p>
-                      New iOS Application for music
+                      New  Application for Mobiles
                     </p>
                 </div>
             </a>
 
-            <a href="#" class="product__cart ">
+            <a href="/Products/8/Categories" class="product__cart ">
                 <div class="new_producyt_img colortree">
                     <img src="/img/web.png" >
                 </div>
                 <div class="new_product_title">
                     <p>
-                         New responsive Website for buisines  
+                         New responsive Website for   
                     </p>
                 </div>
             </a>
 
-            <a href="#" class="product__cart  ">
+            <a href="/Products/11/Categories" class="product__cart  ">
                 <div class="new_producyt_img colortwo">
                     <img src="/img/mok2.png" >
                 </div>
                 <div class="new_product_title">
                     <p>
-                        New Mockup Affiche ads for magasin 
+                        New Php Scriptes
                     </p>
                 </div>
             </a>
 
 
-            <a href="#" class="product__cart ">
+            <a href="/Products/9/Categories" class="product__cart ">
                 <div class="new_producyt_img colorone">
                     <img src="/img/mik1.webp" >
                 </div>
                 <div class="new_product_title">
                     <p>
-                    New responsive Website for buisines   
+                    New Graphic Design Projects
                     </p>
                 </div>
             </a>
