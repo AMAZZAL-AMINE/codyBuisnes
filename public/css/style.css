@@ -730,6 +730,8 @@ body {
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
+    object-fit: cover;
+    object-position: 20% 10%;
 }
 
 .cart_profile .heart_ a {
@@ -1286,10 +1288,14 @@ body {
 }
 
 .show__all__products_from_new_to_old .cart__product .cart__image img {
-    width: 100%;
+    /* width: 100%; */
+    width: 100%; /* width of container */
+    height: 250px; /* height of container */
+    object-fit: cover;
+    object-position: 20% 10%;
     border-radius: 15px;
-    max-height: 132px;
-    min-height: 212px;
+    max-height: 250px;
+    min-height: 250px;
 }
 
 .show__all__products_from_new_to_old .cart__product  .title__and__rating {
@@ -1842,6 +1848,9 @@ body {
     max-height: 283px;
     min-height: 283px;
     min-width: 283px;
+    width: 283px;
+    object-fit: cover;
+    object-position: 20% 10%;
 }
 
 .about__me__profile .about_me__text .number__id {
