@@ -187,8 +187,6 @@
         </div>
 
     </div>
-
-
     <div class="subscribe">
         <div>
             <b>Be First To Know .</b>

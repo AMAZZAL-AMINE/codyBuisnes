@@ -292,17 +292,13 @@
 
 
   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2021 Copyright:
-    <a class="text-reset fw-bold" href="http://127.0.0.1:8000/">COODYBISNINS.com</a>
+    © <?php echo date('Y') ?> Copyright:
+    <a class="text-reset fw-bold" href="/">mycoody.com</a>
   </div>
   <!-- Copyright -->
 
 </footer>
 <!-- Footer -->
-
- 
-
-
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="{{ asset('/js/scrip.js') }}"></script>
 
