@@ -28,7 +28,11 @@
 
              </div>
              <div>
-                 <a href=""><button class="button-61" role="button"  >Checkout Now</button></a>
+                    <form action=" {{ route('add.cart',$top->id) }} " method="post">
+                         @csrf
+                         <button class="button-61" role="button"  >Add To Cart <i class="fa fa-cart-plus" aria-hidden="true"></i> </button>
+                     </form>
+               
              </div>
      </div>
 
@@ -68,14 +72,8 @@
              </div>
 
              <div class="addd_to_cart_and_show">
-                 <div class="show__">
+                 <div class="show__ w-100">
                      <a href="{{ route('product.detail',$top->id) }}"><i class="fa fa-eye" aria-hidden="true"></i> Show</a>
-                 </div>
-                 <div class="add_to_cart">
-                     <form action=" {{ route('add.cart',$top->id) }} " method="post">
-                         @csrf
-                            <button class="add_to_cart" type="submit"><i class="fa fa-cart-plus" aria-hidden="true"></i> </button>
-                     </form>
                  </div>
              </div>
          </div>
