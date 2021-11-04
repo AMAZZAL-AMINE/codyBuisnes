@@ -146,8 +146,8 @@
             <label for="admin_layout">Admin Panel</label>
             <select  id="admin_layout" class="form-control" name="admin_layout">
                 <option value="">Admin Panel (yes & no)</option>
-                <option value="yes">No</option>
-                <option value="no">Ues</option>
+                <option value="no">No</option>
+                <option value="yes">Yes</option>
             </select>
         </div>
  

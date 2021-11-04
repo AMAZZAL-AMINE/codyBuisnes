@@ -75,65 +75,56 @@
         <div class="categories__content__">
 
 
-            <a href="#" class="category_content">
-                <div>
-                    <img src="/img/icons8_iphone_52px.png" alt="">
-                </div>
-                <div class="text__">
-                    IOS <br>
-                    Application
-                </div>
-            </a>
 
 
-            <a href="#" class="category_content">
+            <a href="/Products/7/Categories" class="category_content">
                 <div>
                     <img src="/img/icons8_android_52px.png" alt="">
                 </div>
                 <div class="text__">
-                Android <br>
-                    Application
+                Mobile <br>
+                 Applications
                 </div>
             </a>
 
 
-            <a href="#" class="category_content">
+            <a href="/Products/11/Categories" class="category_content">
                 <div>
                     <img src="/img/icons8_web_48px_1.png" alt="">
                 </div>
                 <div class="text__">
-                    Web <br>
-                    Application
+                PHP<br>
+                  Scripts
                 </div>
             </a>
 
-            <a href="#" class="category_content">
+            <a href="/Products/8/Categories" class="category_content">
                 <div>
                     <img src="/img/icons8_new_resume_template_64px.png" alt="">
                 </div>
                 <div class="text__">
-                Personel <br>
-                    Application
+                Web <br>
+                  Templates
                 </div>
             </a>
 
-            <a href="#" class="category_content">
+            <a href="/Products/13/Categories" class="category_content">
                 <div>
                     <img src="/img/icons8_medium_icons_60px.png" alt="">
                 </div>
                 <div class="text__">
-                Mockup <br>
-                Design
+                Theme <br>
+                
                 </div>
             </a>
 
-            <a href="#" class="category_content">
+            <a href="/Products/9/Categories" class="category_content">
                 <div>
                     <img src="/img/icons8_design_60px_1.png" alt="">
                 </div>
                 <div class="text__">
                 Graphic <br>
-                Design
+                 Templates
                 </div>
             </a>
 

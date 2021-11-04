@@ -7,12 +7,10 @@
           
             alert('product  ahs been aded to cart successfuly')
         </script>
-    @endif
+@endif
 @foreach ($top_product as $top)
 
 <div class="content_best_cart">
- 
-
  
  <div class="carts_best_here_bg">
      
@@ -101,6 +99,7 @@
 
   
     <div class="show__all__products_from_new_to_old">
+    
     @foreach ($products as $product)
         <div class="cart__product">
                 <div class="cart__image">
@@ -153,6 +152,10 @@
  
  
     @endforeach
+
+    </div>
+    <div class=" d-flex justify-content-center mt-5">
+          {{ $products->links("pagination::bootstrap-4") }}
     </div>
 </div>
 @endsection

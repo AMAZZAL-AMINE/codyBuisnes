@@ -14,7 +14,7 @@ class ProductController extends Controller
 
     public function ShowProducts() {
 
-        $products = Product::all();
+        $products = Product::orderBy('created_at','desc')->paginate(24);
         $top_product = Product::where('is_top',"yes")->get();
         
         return view('products.products', compact('products', 'top_product'));
@@ -35,6 +35,7 @@ class ProductController extends Controller
 
         $categories = Category::find($id);
         $products = $categories->products;
+        
 
         return view('products.products', compact('products', 'top_product'));
     }
