@@ -544,7 +544,9 @@ body {
     padding: 35px;
 } 
 
-
+.nav_logo img {
+    width: 135px;
+}
 
 
 
@@ -823,10 +825,11 @@ body {
         position: fixed;
         margin-bottom: 158px;
         z-index: 999;
+        align-items: center;
 
     }
-    .nezw .new_logo {
-        color: blue;
+    .nezw .new_logo img {
+        width: 95px;
         cursor: pointer;
     }
     .nezw .icon_nav {

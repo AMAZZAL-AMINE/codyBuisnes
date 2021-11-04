@@ -106,7 +106,7 @@ class PaypalePaymentController extends Controller
        
         return redirect()->route('cart.index')->with([
 
-            'info' => 'Your Payment Has Be seccessfully'
+            'info' => 'Your Payment Has Been Accesspted seccessfully'
 
         ]);
 

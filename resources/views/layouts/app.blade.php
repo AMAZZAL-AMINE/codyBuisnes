@@ -34,7 +34,7 @@
 
               <div class="nezw">
                     <div class="new_logo">
-                      <a href="/" class="text-decoration-none text-primary font-weight-bold">COODYBISNUIS</a>
+                      <a href="/" class="text-decoration-none text-primary font-weight-bold"><img src="{{ asset('/logo/logo.png') }}" alt=""></a>
                   </div>
                   <div class="icon_nav">
                      <i class="fa fa-navicon" aria-hidden="true"></i>
@@ -46,7 +46,7 @@
             <i class="fa fa-times" aria-hidden="true"></i>
         </div>
 
-                <div class="nav_logo"> <img src="" alt="">  <a href="/" class="text-decoration-none text-primary font-weight-bold">COODYBISNUIS</a> </div>
+                <div class="nav_logo">   <a href="/" class="text-decoration-none text-primary font-weight-bold"><img src="{{ asset('/logo/logo.png') }}" alt=""></a> </div>
 
                 <div class="nav_pages_categories" >
                     <div class="nav_pages">
