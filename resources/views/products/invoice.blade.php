@@ -238,7 +238,7 @@
                            Product Price
                           </td>
                           <td width="25%" align="left" style="font-family: Open Sans, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 600; line-height: 24px; padding: 5px 10px;">
-                            {{ $order->price }} DH
+                            {{ $order->price }} $
                           </td>
                         </tr>
                       </table>
@@ -252,7 +252,7 @@
                             TOTAL
                           </td>
                           <td width="25%" align="left" style="font-family: Open Sans, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 800; line-height: 24px; padding: 10px; border-top: 2px solid #eeeeee; border-bottom: 2px solid #eeeeee;">
-                                {{ $order->total }} DH
+                                {{ $order->total }}  $
                           </td>
                         </tr>
                       </table>

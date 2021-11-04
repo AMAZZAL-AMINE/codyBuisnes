@@ -41,14 +41,14 @@
              <div class="price_new_price">
                @if ($top->new_price == null)
                     <div class="new_price">
-                        <b>{{ $top->price }} DH</b>
+                        <b>{{ $top->price }} $</b>
                     </div>
                     @else
                     <div class="new_price">
-                        <b>{{$top->new_price }} DH</b>
+                        <b>{{$top->new_price }} $</b>
                     </div>
                     <div class="old_price">
-                     <b><strike>{{ $top->price }} DH</strike></b>
+                     <b><strike>{{ $top->price }} $</strike></b>
                     </div>
                 @endif
 
@@ -124,14 +124,14 @@
                 <div class="product_new_price_and_old_price">
                     @if ($product->new_price == null)
                     <div class="d_price">
-                        <b>{{ $product->price }} DH</b>
+                        <b>{{ $product->price }} $</b>
                     </div>
                     @else
                     <div class="d_price">
-                        <b>{{ $product->new_price }} DH</b>
+                        <b>{{ $product->new_price }} $</b>
                     </div>
                     <div class="old_price">
-                        <b><strike>{{ $product->price }} DH</strike></b>
+                        <b><strike>{{ $product->price }} $</strike></b>
                     </div>
                     @endif
 

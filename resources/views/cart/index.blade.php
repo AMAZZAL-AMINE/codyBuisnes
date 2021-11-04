@@ -62,7 +62,7 @@
                    </div>
                    <div class="price_item">
  
-                              <b>{{ $item->price * $item->quantity  }} DH</b>
+                              <b>{{ $item->price * $item->quantity  }} $</b>
  
                        
                    </div>
@@ -85,12 +85,12 @@
                <b>Total : </b>
            </div>
            <div>
-                {{ Cart::getSubtotal() }} DH
+                {{ Cart::getSubtotal() }} $
            </div>
        </div>
 
        <div class="button_for_pay_by_paypal_">
-           <a href="{{ route('make.payment') }}"><button>Pay <span class="text-primary">{{ Cart::getSubtotal()  }} DH</span> By Paypal <img src="/img/paypal.png" alt="">  </button></a>
+           <a href="{{ route('make.payment') }}"><button>Pay <span class="text-primary">{{ Cart::getSubtotal()  }} $</span> By Paypal <img src="/img/paypal.png" alt="">  </button></a>
        </div>
            @endif
        

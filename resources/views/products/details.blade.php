@@ -32,14 +32,14 @@
                 <div class="button_price_and_new_price">
                     @if ($product->new_price == null)
                         <div class="_d_price_">
-                            <button > {{ $product->price }} DH</button>
+                            <button > {{ $product->price }} $</button>
                         </div>
                         @else
                         <div class="_d_price_">
-                            <button > {{ $product->new_price }} DH</button>
+                            <button > {{ $product->new_price }} $</button>
                         </div>
                         <div class="ol_price">
-                            <button > <strike> {{ $product->price }} DH</strike> </button>
+                            <button > <strike> {{ $product->price }} $</strike> </button>
                         </div>
                     @endif
 
