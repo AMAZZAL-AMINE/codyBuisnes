@@ -28,7 +28,7 @@ class PaypalePaymentController extends Controller
 
                 array_push($data['items'], [
                     'name' => $item->name,
-                    'price' => (int) ($item->price  /* //9 */),
+                    'price' => (int) ($item->price / 1),
                     'desc' => $item->associatedModel->description,
                     'qty' => $item->quantity,
                 ]);
