@@ -131,8 +131,6 @@
                         <b><strike>{{ $product->price }} $</strike></b>
                     </div>
                     @endif
-
-
                 </div>
             <div class="buttons__cart_heart_show">
                 <div class="__show_more">
@@ -144,7 +142,6 @@
                         @csrf
                           <button> <i class="fa fa-cart-plus" aria-hidden="true"></i> </button> 
                     </form>
-                  
                 </div>
             </div>
         </div>
@@ -154,6 +151,7 @@
     @endforeach
 
     </div>
+
 
 </div>
 @endsection

@@ -1268,10 +1268,12 @@ body {
     -o-border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
     padding: 12px;
-    max-width: 290px;
+    max-width: 320px;
     margin-left: 15px;
     margin-bottom: 15px;
     cursor:grabbing;
+    min-height: 440px;
+    max-height: 440px;
   
 
 }
@@ -1409,11 +1411,12 @@ body {
         -o-border-radius: 15px;
         box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
         padding: 7px;
-        max-width: 253px;
+        max-width: 353px;
         margin-left: 3px;
         margin-bottom: 15px;
         cursor:grabbing;
-    
+        min-height: auto;
+        max-height: auto;
     }
     
 }
