@@ -71,7 +71,7 @@
             <span></span>
         </div>
         <div class="____text">
-            <i class="fas fa-boxes    "></i> All Products
+            <i class="fas fa-boxes    "></i> All Products ({{ $products->count() }})
         </div>
     </div>
     <div class="show__all__products_from_new_to_old">
