@@ -29,13 +29,13 @@
              $(".alert").alert();
            </script>
        @endif
-   @if ($items->count() == 0 )
+     @if ($items->count() == 0 )
                <div class="text-center mt-5 mb-5"> 
                    <div>
                        <img width="100" src="/img/clear.png" alt="">
                        <div>
                            <h1 class="text-muted">Opps ! Your Cart Is Empty</h1>
-                           <a href=""><button class="btn btn-success" >Go To Shooping</button></a>
+                           <a href="{{ route('products.show') }}"><button class="btn btn-success" >Go To Shooping</button></a>
                        </div>
                    </div>
                </div>
