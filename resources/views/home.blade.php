@@ -1,6 +1,16 @@
 @extends('layouts.app')
 
 @section('content')
+
+<!-- IMAGE SLIDERS IN HOME PAGE -->
+    <div class="banner">
+        <div class="slider">
+            <img src="/s_img/1.png" alt="">
+        </div>
+    </div>
+
+
+
     <div class="seacttion-top">
         <div class="text_">
             <div>
