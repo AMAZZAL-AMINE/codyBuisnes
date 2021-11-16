@@ -1,6 +1,58 @@
 @extends('layouts.app')
 
 @section('content')
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<style>
+.carousel {
+  background: #EEE;
+}
+body {
+    overflow-x: hidden;
+}
+.kjsdghdsfghsjfg {
+    margin-top: 50px;
+    margin: 25px;
+    margin-bottom: 80px;
+    
+}
+.carousel-cell {
+  width: 100%;
+  height: auto;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+  
+}
+
+/* cell number */
+/* .carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+
+} */
+
+@media only screen and (max-width: 859px) {
+    .kjsdghdsfghsjfg {
+        margin-top: 100px;
+    }
+}
+
+</style>
+<div class="kjsdghdsfghsjfg"
+  data-flickity='{ "freeScroll": true, "autoPlay": true }'>
+   <img class="carousel-cell" src="/s_img/1.png" alt=""> 
+   <img class="carousel-cell" src="/s_img/2.jpg" alt=""> 
+   <img class="carousel-cell" src="/s_img/3.jpg" alt=""> 
+   <img class="carousel-cell" src="/s_img/4.jpg" alt=""> 
+   <img class="carousel-cell" src="/s_img/5.png" alt=""> 
+</div>
+
     <div class="seacttion-top">
         <div class="text_">
             <div>
