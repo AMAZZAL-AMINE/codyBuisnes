@@ -42,3 +42,4 @@ $('document').ready(function() {
 
 
 //se images change in home page
+alert('hello');
