@@ -2333,6 +2333,24 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* styling the sliders in home page */
 
 .slider-single-group {
@@ -2400,4 +2418,37 @@ body {
 }
 
 
-/
+@media only screen and (max-width: 880px) {
+    .slider-single-group .text_desc_slider h1{
+        font-size: 40px; 
+        max-width: 100%;
+       
+    }
+    .slider-single-group .text_desc_slider p {
+        font-size: 18px;
+        max-width: 100%;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+
+@media only screen and (max-width: 730px) {
+    .slider-single-group .text_desc_slider h1{
+        font-size: 30px;  
+    }
+    .slider-single-group .text_desc_slider p {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .slider-single-group {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .slider-single-group .text_desc_slider h1{
+        font-size: 30px;  
+    }
+    .slider-single-group .text_desc_slider p {
+        font-size: 15px;
+    }
+}
