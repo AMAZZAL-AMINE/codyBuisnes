@@ -48,14 +48,51 @@ body {
         <img  class="carousel-cell"  src="/s_img/1.png" alt=""> 
         <div class="text_slider_homePagesldf">
            <h1>Say Hello To Mobile App</h1>     
-           <p>Ther's Alot of Project of Mobile Apps  Has Been Created For you</p>
+           <p>Ther's Alot of Project of Mobile Apps   Has Been Created For you</p>
            <a href=""><button  class="button-83" role="button">Browse Now</button></a>
         </div>
     </div>
-   <img class="carousel-cell" src="/s_img/2.jpg" alt=""> 
-   <img class="carousel-cell" src="/s_img/3.jpg" alt=""> 
-   <img class="carousel-cell" src="/s_img/4.jpg" alt=""> 
-   <img class="carousel-cell" src="/s_img/5.png" alt=""> 
+
+
+    <div class="carousel-cell" > 
+     <img class="carousel-cell" src="/s_img/2.jpg" alt=""> 
+        <div class="text_slider_homePagesldf">
+           <h1>Say Hello To Mobile App</h1>     
+           <p>Ther's Alot of Project of Mobile Apps   Has Been Created For you</p>
+           <a href=""><button  class="button-83" role="button">Browse Now</button></a>
+        </div>
+    </div>
+
+
+    <div class="carousel-cell" > 
+        <img class="carousel-cell" src="/s_img/3.jpg" alt=""> 
+        <div class="text_slider_homePagesldf">
+           <h1>Say Hello To Mobile App</h1>     
+           <p>Ther's Alot of Project of Mobile Apps   Has Been Created For you</p>
+           <a href=""><button  class="button-83" role="button">Browse Now</button></a>
+        </div>
+    </div>
+
+
+    <div class="carousel-cell" > 
+         <img class="carousel-cell" src="/s_img/4.jpg" alt="">
+        <div class="text_slider_homePagesldf">
+           <h1>Say Hello To Mobile App</h1>     
+           <p>Ther's Alot of Project of Mobile Apps   Has Been Created For you</p>
+           <a href=""><button  class="button-83" role="button">Browse Now</button></a>
+        </div>
+    </div>
+    
+   
+    <div class="carousel-cell" > 
+        <img class="carousel-cell" src="/s_img/5.png" alt=""> 
+        <div class="text_slider_homePagesldf">
+           <h1>Say Hello To Mobile App</h1>     
+           <p>Ther's Alot of Project of Mobile Apps   Has Been Created For you</p>
+           <a href=""><button  class="button-83" role="button">Browse Now</button></a>
+        </div>
+    </div>
+
 </div>
 
 
