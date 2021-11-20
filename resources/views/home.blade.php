@@ -51,7 +51,7 @@ body {
             <img src="/s_img/app.png" alt="">
         </div>
         <div class="text_desc_slider">
-           <h1>Say Hello To Mobile App</h1>     
+           <h1> Projects In  Mobile App</h1>     
            <p>Ther's Alot of Project of Mobile Apps   Has Been Created For you</p>
            <a href=""><button  class="button-83" role="button">Browse Now</button></a>
         </div>
@@ -62,8 +62,8 @@ body {
         <div class="img_coursol">
             <img src="/s_img/app.png" alt="">
         </div>
-        <div class="">
-           <h1>Say Hello To Mobile App</h1>     
+        <div class="text_desc_slider">
+           <h1> Browse Mobile App</h1>     
            <p>Ther's Alot of Project of Mobile Apps   Has Been Created For you</p>
            <a href=""><button  class="button-83" role="button">Browse Now</button></a>
         </div>
@@ -74,8 +74,8 @@ body {
         <div class="img_coursol">
             <img src="/s_img/app.png" alt="">
         </div>
-        <div class="">
-           <h1>Say Hello To Mobile App</h1>     
+        <div class="text_desc_slider">
+           <h1> Browse Mobile App</h1>     
            <p>Ther's Alot of Project of Mobile Apps   Has Been Created For you</p>
            <a href=""><button  class="button-83" role="button">Browse Now</button></a>
         </div>
@@ -86,31 +86,22 @@ body {
         <div class="img_coursol">
             <img src="/s_img/app.png" alt="">
         </div>
-        <div class="">
-           <h1>Say Hello To Mobile App</h1>     
+        <div class="text_desc_slider">
+           <h1> Browse Mobile App</h1>     
            <p>Ther's Alot of Project of Mobile Apps   Has Been Created For you</p>
            <a href=""><button  class="button-83" role="button">Browse Now</button></a>
         </div>
     </div>
+
+
     
-   
-    <div class="carousel-cell slider-single-group" > 
-        <div class="img_coursol">
-            <img src="/s_img/app.png" alt="">
-        </div>
-        <div class="">
-           <h1>Say Hello To Mobile App</h1>     
-           <p>Ther's Alot of Project of Mobile Apps   Has Been Created For you</p>
-           <a href=""><button  class="button-83" role="button">Browse Now</button></a>
-        </div>
-    </div>
-
 </div>
 
 
 
 
-    <div class="seacttion-top">
+
+<div class="seacttion-top">
         <div class="text_">
             <div>
                 <h1>Make Business & Make Mony </h1>
