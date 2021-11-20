@@ -12,16 +12,17 @@ body {
     margin-top: 50px;
     margin: 25px;
     margin-bottom: 80px;
+   
     
 }
 .carousel-cell {
   width: 100%;
   height: auto;
   margin-right: 10px;
-  background: #8C8;
+  background: rgb(224,189,189);
+  background: linear-gradient(9deg, rgba(224,189,189,1) 0%, rgba(255,147,63,1) 100%);
   border-radius: 5px;
   counter-increment: gallery-cell;
-  
 }
  
 /* cell number */
@@ -44,9 +45,12 @@ body {
 </style>
 <div class="kjsdghdsfghsjfg"
   data-flickity='{ "freeScroll": false, "autoPlay": true }'>
-    <div class="carousel-cell" > 
-        <img  class="carousel-cell"  src="/s_img/1.png" alt=""> 
-        <div class="text_slider_homePagesldf">
+   
+   <div class="carousel-cell slider-single-group" > 
+        <div class="img_coursol">
+            <img src="/s_img/app.png" alt="">
+        </div>
+        <div class="text_desc_slider">
            <h1>Say Hello To Mobile App</h1>     
            <p>Ther's Alot of Project of Mobile Apps   Has Been Created For you</p>
            <a href=""><button  class="button-83" role="button">Browse Now</button></a>
@@ -54,9 +58,11 @@ body {
     </div>
 
 
-    <div class="carousel-cell" > 
-     <img class="carousel-cell" src="/s_img/2.jpg" alt=""> 
-        <div class="text_slider_homePagesldf">
+    <div class="carousel-cell slider-single-group" > 
+        <div class="img_coursol">
+            <img src="/s_img/app.png" alt="">
+        </div>
+        <div class="">
            <h1>Say Hello To Mobile App</h1>     
            <p>Ther's Alot of Project of Mobile Apps   Has Been Created For you</p>
            <a href=""><button  class="button-83" role="button">Browse Now</button></a>
@@ -64,9 +70,11 @@ body {
     </div>
 
 
-    <div class="carousel-cell" > 
-        <img class="carousel-cell" src="/s_img/3.jpg" alt=""> 
-        <div class="text_slider_homePagesldf">
+    <div class="carousel-cell slider-single-group" > 
+        <div class="img_coursol">
+            <img src="/s_img/app.png" alt="">
+        </div>
+        <div class="">
            <h1>Say Hello To Mobile App</h1>     
            <p>Ther's Alot of Project of Mobile Apps   Has Been Created For you</p>
            <a href=""><button  class="button-83" role="button">Browse Now</button></a>
@@ -74,9 +82,11 @@ body {
     </div>
 
 
-    <div class="carousel-cell" > 
-         <img class="carousel-cell" src="/s_img/4.jpg" alt="">
-        <div class="text_slider_homePagesldf">
+    <div class="carousel-cell slider-single-group" > 
+        <div class="img_coursol">
+            <img src="/s_img/app.png" alt="">
+        </div>
+        <div class="">
            <h1>Say Hello To Mobile App</h1>     
            <p>Ther's Alot of Project of Mobile Apps   Has Been Created For you</p>
            <a href=""><button  class="button-83" role="button">Browse Now</button></a>
@@ -84,9 +94,11 @@ body {
     </div>
     
    
-    <div class="carousel-cell" > 
-        <img class="carousel-cell" src="/s_img/5.png" alt=""> 
-        <div class="text_slider_homePagesldf">
+    <div class="carousel-cell slider-single-group" > 
+        <div class="img_coursol">
+            <img src="/s_img/app.png" alt="">
+        </div>
+        <div class="">
            <h1>Say Hello To Mobile App</h1>     
            <p>Ther's Alot of Project of Mobile Apps   Has Been Created For you</p>
            <a href=""><button  class="button-83" role="button">Browse Now</button></a>

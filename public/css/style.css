@@ -2333,40 +2333,34 @@ body {
 
 
 
+/* styling the sliders in home page */
 
-
-
-/* text description for image sider style */
-.text_slider_homePagesldf {
-   
-    position: relative;
-    margin: auto;
-    margin-top: -40%;
-    padding: 15px;
-    background-color: rgba(0, 0, 0, 0.772);
-    width: 50%;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    padding-left: 15px;
-    text-align: center;
+.slider-single-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px; 
 }
-.text_slider_homePagesldf h1{
-    font-size: 65px;
-    font-weight: bold;
-    color: white;
-    font-family: 'Shippori Antique', sans-serif;
+
+.slider-single-group .img_coursol img {
+    width: 70%;
     
 }
-
-.text_slider_homePagesldf p {
-    font-family: 'Hind Siliguri', sans-serif;
-    font-size: 25px;
-    color: white;
+ 
+.slider-single-group .text_desc_slider h1{
+    color: white; 
+    font-weight: bold;
+    font-size: 50px; 
+    max-width: 700px;
+    margin-bottom: 25px;
 }
-/* CSS */
+.slider-single-group .text_desc_slider p {
+    font-size: 20px;
+    max-width: 500px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
 .button-83 {
   appearance: button;
   background-color: transparent;
@@ -2406,28 +2400,4 @@ body {
 }
 
 
-/* responsive design web sliders text desceiption */
-@media only screen and (max-width: 940px) {
-    .text_slider_homePagesldf {
-        margin-top: -40%;
-    }
-}
-@media only screen and (max-width: 932px) {
-    .text_slider_homePagesldf {
-        margin-top: -50%;
-    }
-}
-@media only screen and (max-width: 900px) {
-    .text_slider_homePagesldf {
-        margin-top: 0;
-        width: 100%;
-    }
-}
-@media only screen and (max-width: 700px) {
-    .text_slider_homePagesldf h1{
-        font-size: 20px;
-    }
-    .text_slider_homePagesldf p {
-        font-size: 15px;
-    }
-}
+/
