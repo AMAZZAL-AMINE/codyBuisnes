@@ -2303,8 +2303,6 @@ body {
 }
 
 
-
-
  .our-ream_and_cintactus {
      text-align: center;
      padding: 21px;
@@ -2331,4 +2329,73 @@ body {
 .our-ream_and_cintactus .desc--and-text_contact p{
     font-weight: light;
     font-family: 'Lato', sans-serif;
+}
+
+
+
+/* text description for image sider style */
+.text_slider_homePagesldf {
+    position: relative;
+    margin: auto;
+    margin-top: -558px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.772);
+    width: 50%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding-left: 15px;
+    text-align: center;
+}
+.text_slider_homePagesldf h1{
+    font-size: 65px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Shippori Antique', sans-serif;
+}
+
+.text_slider_homePagesldf p {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+/* CSS */
+.button-83 {
+  appearance: button;
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, #fff, #f8eedb);
+  border: 0 solid #e5e7eb;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #482307;
+  column-gap: 1rem;
+  cursor: pointer;
+ 
+  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 100%;
+  font-weight: 700;
+  line-height: 24px;
+ 
+  outline: 2px solid transparent;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  text-transform: none;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+  width: 100%;
+}
+
+.button-83:active {
+  background-color: #f3f4f6;
+  box-shadow: -1px 2px 5px rgba(81,41,10,0.15),0px 1px 1px rgba(81,41,10,0.15);
+  transform: translateY(0.125rem);
+}
+
+.button-83:focus {
+  box-shadow: rgba(72, 35, 7, .46) 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0px 2px 2px rgba(81,41,10,0.2);
 }

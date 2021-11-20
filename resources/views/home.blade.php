@@ -4,9 +4,7 @@
 <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 <style>
-.carousel {
-  background: #EEE;
-}
+ 
 body {
     overflow-x: hidden;
 }
@@ -25,7 +23,7 @@ body {
   counter-increment: gallery-cell;
   
 }
-
+ 
 /* cell number */
 /* .carousel-cell:before {
   display: block;
@@ -45,13 +43,23 @@ body {
 
 </style>
 <div class="kjsdghdsfghsjfg"
-  data-flickity='{ "freeScroll": true, "autoPlay": true }'>
-   <img class="carousel-cell" src="/s_img/1.png" alt=""> 
+  data-flickity='{ "freeScroll": false, "autoPlay": true }'>
+    <div class="carousel-cell" > 
+        <img  class="carousel-cell"  src="/s_img/1.png" alt=""> 
+        <div class="text_slider_homePagesldf">
+           <h1>Say Hello To Mobile App</h1>     
+           <p>Ther's Alot of Project of Mobile Apps  Has Been Created For you</p>
+           <a href=""><button  class="button-83" role="button">Browse Now</button></a>
+        </div>
+    </div>
    <img class="carousel-cell" src="/s_img/2.jpg" alt=""> 
    <img class="carousel-cell" src="/s_img/3.jpg" alt=""> 
    <img class="carousel-cell" src="/s_img/4.jpg" alt=""> 
    <img class="carousel-cell" src="/s_img/5.png" alt=""> 
 </div>
+
+
+
 
     <div class="seacttion-top">
         <div class="text_">
